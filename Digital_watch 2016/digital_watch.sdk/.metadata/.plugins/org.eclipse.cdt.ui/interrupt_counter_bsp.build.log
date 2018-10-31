@@ -1,0 +1,6 @@
+16:16:53 **** Build of project interrupt_counter_bsp ****
+make -k all 
+make: *** Ingen regel til at skabe mål 'all'.
+
+16:16:53 Build Finished (took 94ms)
+

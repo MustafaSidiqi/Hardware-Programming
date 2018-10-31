@@ -1,0 +1,6 @@
+15:51:14 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Ingenting at gøre for 'all'.
+
+15:51:14 Build Finished (took 172ms)
+

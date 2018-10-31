@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Wed Oct 26 16:57:08 2016
+# Process ID: 5272
+# Log file: C:/Users/S143322/Digital_watch/vivado.log
+# Journal file: C:/Users/S143322/Digital_watch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/S143322/Digital_watch/digital_watch.xpr
+launch_sdk -workspace C:/Users/S143322/Digital_watch/digital_watch.sdk -hwspec C:/Users/S143322/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf
+make_wrapper -files [get_files C:/Users/S143322/Digital_watch/digital_watch.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd] -top
+make_wrapper -files [get_files C:/Users/S143322/Digital_watch/digital_watch.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd] -top
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+file copy -force C:/Users/S143322/Digital_watch/digital_watch.runs/impl_1/zynq_interrupt_system_wrapper.sysdef C:/Users/S143322/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/S143322/Digital_watch/digital_watch.sdk -hwspec C:/Users/S143322/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf

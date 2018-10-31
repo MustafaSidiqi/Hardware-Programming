@@ -1,0 +1,24 @@
+16:49:01 **** Auto Build of configuration Debug for project interrupt_counter_2D ****
+make all 
+'Building file: ../interrupt_counter_tut_2D.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"interrupt_counter_tut_2D.o" -I../../interrupt_counter_2D_bsp/ps7_cortexa9_0/include -MMD -MP -MF"interrupt_counter_tut_2D.d" -MT"interrupt_counter_tut_2D.d" -o "interrupt_counter_tut_2D.o" "../interrupt_counter_tut_2D.c"
+../interrupt_counter_tut_2D.c: In function 'main':
+../interrupt_counter_tut_2D.c:127:3: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+   ^
+In file included from ../interrupt_counter_tut_2D.c:22:0:
+../../interrupt_counter_2D_bsp/ps7_cortexa9_0/include/xtmrctr.h:293:6: note: expected 'XTmrCtr_Handler' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^
+'Finished building: ../interrupt_counter_tut_2D.c'
+' '
+'Building target: interrupt_counter_2D.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_2D_bsp/ps7_cortexa9_0/lib -o "interrupt_counter_2D.elf"  ./interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2015.1/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.9.1/../../../../arm-xilinx-eabi/bin/ld.exe: cannot open output file interrupt_counter_2D.elf: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+make: *** [interrupt_counter_2D.elf] Fejl 1
+
+16:49:01 Build Finished (took 422ms)
+

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Nov 03 12:36:30 2016
+# Process ID: 7496
+# Current directory: C:/Users/Mustafa Sidiqi/Desktop/Digital_watch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent764 C:\Users\Mustafa Sidiqi\Desktop\Digital_watch\digital_watch.xpr
+# Log file: C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/vivado.log
+# Journal file: C:/Users/Mustafa Sidiqi/Desktop/Digital_watch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.xpr}
+update_compile_order -fileset sources_1
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}

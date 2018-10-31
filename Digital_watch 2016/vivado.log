@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Nov 03 12:36:30 2016
+# Process ID: 7496
+# Current directory: C:/Users/Mustafa Sidiqi/Desktop/Digital_watch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent764 C:\Users\Mustafa Sidiqi\Desktop\Digital_watch\digital_watch.xpr
+# Log file: C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/vivado.log
+# Journal file: C:/Users/Mustafa Sidiqi/Desktop/Digital_watch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+oexit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 03 12:37:38 2016...
+xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/S143322/Digital_watch' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:zybo:part0:1.0. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [Project 1-230] Project 'digital_watch.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'zynq_interrupt_system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+zynq_interrupt_system_auto_pc_0
+zynq_interrupt_system_axi_gpio_0_0
+zynq_interrupt_system_processing_system7_0_0
+zynq_interrupt_system_axi_gpio_1_0
+zynq_interrupt_system_rst_processing_system7_0_100M_0
+zynq_interrupt_system_axi_timer_0_0
+zynq_interrupt_system_xbar_0
+zynq_interrupt_system_xlconcat_0_0
+
+open_project: Time (s): cpu = 00:01:19 ; elapsed = 00:00:51 . Memory (MB): peak = 819.480 ; gain = 177.887
+update_compile_order -fileset sources_1
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk -hwspec C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Thu Nov 03 12:40:31 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.runs/impl_1/runme.log
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk -hwspec C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk -hwspec C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk} -hwspec {C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk -hwspec C:/Users/Mustafa Sidiqi/Desktop/Digital_watch/digital_watch.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

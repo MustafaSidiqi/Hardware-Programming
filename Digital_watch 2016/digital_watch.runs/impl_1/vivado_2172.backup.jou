@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Wed Oct 26 16:59:25 2016
+# Process ID: 2172
+# Log file: C:/Users/S143322/Digital_watch/digital_watch.runs/impl_1/zynq_interrupt_system_wrapper.vdi
+# Journal file: C:/Users/S143322/Digital_watch/digital_watch.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source zynq_interrupt_system_wrapper.tcl -notrace

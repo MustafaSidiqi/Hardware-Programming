@@ -1,0 +1,43 @@
+# do {and2_simulate.do}
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -do "do {and2_simulate.do}" -l simulate.log 
+# Start time: 14:12:51 on Sep 28,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading xil_defaultlib.and2(behavioral)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+force -freeze sim:/and2/a 1 40
+force -freeze sim:/and2/b U 10
+force -freeze sim:/and2/b 1 0
+force -freeze sim:/and2/c 1 0
+run
+run
+force -freeze sim:/and2/b 1 0
+run
+force -freeze sim:/and2/c 0 0
+run
+force -freeze sim:/and2/c 1 0
+force -freeze sim:/and2/a 0 0
+run
+# End time: 14:14:35 on Sep 28,2016, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0

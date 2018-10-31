@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kunoh/and3/and3.sim/sim_1/behav
+Eand3
+Z1 w1475065642
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../../../and3.srcs/sources_1/new/and3.vhd
+Z5 F../../../and3.srcs/sources_1/new/and3.vhd
+l0
+L34
+VoIdn?Y0KP_`H:?I<1YcCc2
+!s100 `kgZRgKRUkdCKlPQX@H7l2
+Z6 OP;C;10.4a;61
+33
+Z7 !s110 1475065708
+!i10b 1
+Z8 !s108 1475065708.000000
+Z9 !s90 -64|-2008|-work|xil_defaultlib|../../../and3.srcs/sources_1/new/and3.vhd|
+Z10 !s107 ../../../and3.srcs/sources_1/new/and3.vhd|
+!i113 1
+Z11 o-2008 -work xil_defaultlib -O0
+Z12 tExplicit 1
+Abehavioral
+R2
+R3
+Z13 DEx4 work 4 and3 0 22 oIdn?Y0KP_`H:?I<1YcCc2
+l43
+L41
+Z14 VcH0WC<T9S38>:ncTJ__mF2
+Z15 !s100 HIXk`QTN86HUZ_9FYZU[?0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

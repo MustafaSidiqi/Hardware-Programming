@@ -1,0 +1,22 @@
+# do {and3_compile.do}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# ** Warning: (vlib-34) Library already exists at "msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "msim/xil_defaultlib".
+# 
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 14:28:28 on Sep 28,2016
+# vcom -64 -2008 -work xil_defaultlib ../../../and3.srcs/sources_1/new/and3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and3
+# -- Compiling architecture Behavioral of and3
+# End time: 14:28:28 on Sep 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
